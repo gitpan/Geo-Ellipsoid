@@ -1,0 +1,18 @@
+MANIFEST
+README
+LICENSE
+Todo
+Changes
+Makefile.PL
+lib/Geo/Ellipsoid.pm
+t/00-load.t
+t/01-create.t
+t/02-set.t
+t/03-scale.t
+t/04-to.t
+t/05-at.t
+t/06-location.t
+t/07-range.t
+t/08-bearing.t
+t/09-displacement.t
+META.yml                                 Module meta-data (added by MakeMaker)
