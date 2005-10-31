@@ -7,8 +7,9 @@ WriteMakefile(
     NAME         => 'Geo::Ellipsoid',
     VERSION_FROM => 'lib/Geo/Ellipsoid.pm', # finds \$VERSION
     AUTHOR       => 'Jim Gibson (Jim@Gibson.org)',
-    ABSTRACT     => 'Module abstract (<= 44 characters) goes here',
+    ABSTRACT     => 'Accurate latitude/longitude calculations',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
+                     'Test::Number::Delta' => 0.16, 
                     },
 );
