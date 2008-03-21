@@ -1,12 +1,15 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Geo-Ellipsoid
-version:      0.904
-version_from: lib/Geo/Ellipsoid.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                Geo-Ellipsoid
+version:             1.0
+abstract:            Accurate latitude/longitude calculations
+license:             ~
+author:              
+    - Jim Gibson (Jim@Gibson.org)
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
     Test::Number::Delta:           0.16
     Test::Simple:                  0.44
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.25
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
