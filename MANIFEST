@@ -17,3 +17,6 @@ t/07-location.t
 t/08-range.t
 t/09-bearing.t
 t/10-displacement.t
+gentest/gentest_ellipsoid.pl
+test/test_ellipsoid.pl
+test/results.txt

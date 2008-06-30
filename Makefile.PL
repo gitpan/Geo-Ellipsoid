@@ -11,5 +11,8 @@ WriteMakefile(
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
                      'Test::Number::Delta' => 0.16, 
+		     'Math::Trig' => 1.03,
+		     'Scalar::Util' => 1.19,
+		     'Carp' => 1.04,
                     },
 );
