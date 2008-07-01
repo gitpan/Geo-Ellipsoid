@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Geo-Ellipsoid
-version:             1.10
+version:             1.11
 abstract:            Accurate latitude/longitude calculations
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.32
